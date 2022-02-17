@@ -1,0 +1,26 @@
+/* Write your CSS here */
+
+.appointment-card {
+  border: 1px solid grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 8px;
+  min-width: 200px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.name-star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+}

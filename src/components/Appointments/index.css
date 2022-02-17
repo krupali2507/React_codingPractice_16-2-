@@ -1,0 +1,84 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #8b5cf6);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 1000px;
+  min-width: 1000px;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 78%;
+    max-width: 1120px;
+  }
+}
+
+.heading {
+  margin-bottom: 0px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.form-carousal {
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  width: 100%;
+  border: 1px solid grey;
+}
+
+.input-class {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.btn {
+  width: 50%;
+  background-color: #8b5cf6;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.appointment-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointments-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 25%;
+}
+
+.star-filter-button {
+  border-radius: 8px;
+  height: 30px;
+  box-shadow: 1px 2px grey;
+}
+
+.active-star {
+  background-color: blueviolet;
+  color: white;
+}
